@@ -260,8 +260,6 @@ k8.markdown(
 # =======================
 # LỚP 6 – NHẬN ĐỊNH THỊ TRƯỜNG
 # =======================
-st.markdown("<div class='section'>Market Insight</div>", unsafe_allow_html=True)
-
 c1, c2 = st.columns(2)
 
 # Chart 1: Số DN theo mức tín nhiệm
@@ -713,3 +711,4 @@ else:
 # Footer
 
 st.markdown("---")
+
