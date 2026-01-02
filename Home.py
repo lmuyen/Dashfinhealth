@@ -71,7 +71,7 @@ df_flow = pd.read_parquet("data_dau_tu.parquet")
 df_price = pd.read_parquet("Price_2124.parquet")
 df_mcap = pd.read_parquet("Marketcap_2124.parquet")
 df_volume = pd.read_parquet("Volume_2124.parquet")
-df_ft = pd.read_parquet("df_ft_sorted_2021_2024.parquet")
+df_ft = pd.read_parquet("df_ft_2124.parquet")
 
 
 # =======================
@@ -711,4 +711,5 @@ else:
     st.warning(f"Không tìm thấy thông tin cho mã {ticker_search} năm {year}")
 
 # Footer
+
 st.markdown("---")
